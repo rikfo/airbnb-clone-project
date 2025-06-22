@@ -16,8 +16,12 @@ Allow users to leave reviews and ratings for properties.
 ## 6. Data Optimization:
 Ensure efficient data retrieval and storage through database  
 
+---
+
 **Tech Stack**
 React will be used in the frontend while django will be used in the backend.  
+
+---
 
 # Team Roles
 **Backend Developer**: is the developer responsible for the service side logic, including API endpoints implementing, database schemes, and implementing algorithms and business logic.  
@@ -28,6 +32,8 @@ React will be used in the frontend while django will be used in the backend.
 
 **QA Engineer**: is responsible for making sure and application runs according to the requirements, and spots functional and non-functional defects.
 
+---
+
 # Technology Stack
 - **Django**: A high-level Python web framework used for building the RESTful API.
 - **Django REST Framework**: Provides tools for creating and managing RESTful APIs.
@@ -37,6 +43,8 @@ React will be used in the frontend while django will be used in the backend.
 - **Redis**: Used for caching and session management.
 - **Docker**: Containerization tool for consistent development and deployment environments.
 - **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
+
+---
 
 # Database Design
 ## **1. User**
@@ -107,6 +115,8 @@ Represents a financial transaction for a booking.
 A payment belongs to one booking  
 A booking has one payment  
 
+---
+
 # Feature Breakdown
 ## Features Overview
 ### 1. API Documentation
@@ -132,6 +142,8 @@ Features: Post and manage reviews for properties.
 Indexing: Implement indexes for fast retrieval of frequently accessed data.
 Caching: Use caching strategies to reduce database load and improve performance.
 
+---
+
 # API Security
 ## 1. Authentication
 Verifies user identity (e.g., login with hashed passwords, JWTs).  
@@ -152,6 +164,8 @@ Ensures safe, PCI-compliant transactions.
 Encrypts sensitive data and uses HTTPS.  
 Keeps personal and financial data safe.
 
+---
+
 # What is CI/CD?
 CI/CD (Continuous Integration/Continuous Deployment) is a process that automates testing and deployment of code changes.  
 CI (Continuous Integration): Automatically tests and merges code when changes are pushed.  
@@ -165,6 +179,8 @@ GitHub Actions – Automate testing and deployment
 Docker – Containerize the app for consistent environments  
 Jest / Mocha – For running tests  
 Heroku / Vercel / AWS – For deployment
+
+---
 
 # Frontend
 
@@ -231,4 +247,26 @@ Heroku / Vercel / AWS – For deployment
 - **Scalability:** Easier to maintain or scale the project with reusable styles.
 - **Accessibility:** Proper font sizes, contrast, and spacing enhance usability for all users.
 
+---
+
+# Project Roles and Responsibilities
+## Project Manager (PM)
+- Oversees the project timeline and ensures deliverables are met.
+## Frontend Developer
+- Builds the user interface based on design mockups.
+## Backend Developer
+- Develops and maintains the application's server-side logic.
+## Designer (UI/UX)
+- Designs user-friendly and visually consistent interfaces.
+## QA / Tester
+- Tests features and identifies bugs before release.
+## DevOps Engineer
+- Manages deployment pipelines and server infrastructure.
+## Product Owner (PO)
+- Defines product requirements and prioritizes features.
+## Scrum Master
+- Facilitates team collaboration and agile ceremonies.
+
+---
+Each team member plays a vital role in delivering the project successfully.
 ---
