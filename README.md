@@ -271,7 +271,7 @@ Heroku / Vercel / AWS – For deployment
 Each team member plays a vital role in delivering the project successfully.
 ---
 
-# UI Components Patterns
+# UI Component Patterns
 ## Navbar
 - A top navigation bar with links to Home, Listings, User Profile, and Login/Logout. Responsive for desktop and mobile.
 ## Property Card
