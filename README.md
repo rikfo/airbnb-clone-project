@@ -1,6 +1,19 @@
 # airbnb-clone-project
-ALX Airbnb Clone.  
-This Project aims to equipe me with essential skills in full stack software engineering.  
+# Project Goals
+## 1. User Management:
+Implement a secure system for user registration, authentication, and profile management.
+## 2. Property Management:
+Develop features for property listing creation, updates, and retrieval.
+## 3. Booking System:
+Create a booking mechanism for users to reserve properties and manage booking details.
+## 4. Payment Processing:
+Integrate a payment system to handle transactions and record payment details.
+## 5. Review System:
+Allow users to leave reviews and ratings for properties.
+## 6. Data Optimization:
+Ensure efficient data retrieval and storage through database  
+
+**Tech Stack**
 React will be used in the frontend while django will be used in the backend.  
 
 # Team Roles
@@ -115,3 +128,23 @@ Features: Post and manage reviews for properties.
 ### 7. Database Optimizations
 Indexing: Implement indexes for fast retrieval of frequently accessed data.
 Caching: Use caching strategies to reduce database load and improve performance.
+
+# API Security
+## 1. Authentication
+Verifies user identity (e.g., login with hashed passwords, JWTs).
+🔒 Protects accounts from unauthorized access.
+## 2. Authorization
+Controls what each user can do (e.g., only hosts can edit their listings).
+🛡️ Prevents users from accessing others’ data.
+## 3. Rate Limiting
+Limits number of requests per user/IP.
+🚫 Stops abuse like brute-force attacks or spam.
+## 4. Input Validation
+Checks and sanitizes all user input.
+🧼 Prevents SQL injection & XSS attacks.
+## 5. Secure Payments
+Uses trusted payment providers (e.g., Stripe).
+💳 Ensures safe, PCI-compliant transactions.
+## 6. Data Encryption
+Encrypts sensitive data and uses HTTPS.
+🔐 Keeps personal and financial data safe.
