@@ -36,6 +36,7 @@ Represents the people using the platform, either as guests or hosts (or both).
 A user can own multiple properties (if they’re a host)  
 A user can make multiple bookings (if they’re a guest)  
 A user can write multiple reviews  
+
 **2. Property**  
 Represents the places listed for rent.  
 **Key Fields:**
@@ -49,6 +50,7 @@ Represents the places listed for rent.
 A property belongs to one user (the host)  
 A property can have multiple bookings  
 A property can have multiple reviews  
+
 **3. Booking**  
 Represents a reservation made by a guest.  
 **Key Fields:**
@@ -62,6 +64,7 @@ Represents a reservation made by a guest.
 A booking belongs to one user (guest)  
 A booking belongs to one property  
 A booking may have one payment  
+
 **4. Review**  
 Represents feedback left by a guest after a stay.  
 **Key Fields:**
@@ -74,6 +77,7 @@ Represents feedback left by a guest after a stay.
 **Relationships:**  
 A review belongs to one user (guest)  
 A review belongs to one property  
+
 **5. Payment**  
 Represents a financial transaction for a booking.  
 **Key Fields:**
