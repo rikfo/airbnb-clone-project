@@ -194,3 +194,41 @@ Heroku / Vercel / AWS – For deployment
 **Reduces Friction**: Simple forms and clear flows make the experience smooth.  
 **Boosts Conversions**: A better UX increases trust, which leads to more bookings.  
 **Accessibility**: Inclusive design means everyone can use it regardless of device or ability.  
+
+## Color Styles
+
+| Name            | Hex Code   | Usage                          |
+|-----------------|------------|---------------------------------|
+| Primary         | #1E90FF    | Buttons, links, highlights     |
+| Secondary       | #F5F5F5    | Backgrounds, cards             |
+| Accent          | #FF7F50    | Icons, tags, call-to-action    |
+| Text - Primary  | #222222    | Main text                      |
+| Text - Secondary| #666666    | Subtext, hints                 |
+| Error           | #FF4C4C    | Validation errors, warnings    |
+| Success         | #28a745    | Booking success, notifications |
+
+---
+
+## Typography
+
+| Style          | Value                       |
+|----------------|-----------------------------|
+| Font Family    | `Inter`, `sans-serif`       |
+| Font Weights   | 400 (regular), 600 (semi-bold), 700 (bold) |
+| Font Sizes     | 
+- `12px` (caption)  
+- `14px` (secondary text)  
+- `16px` (body text)  
+- `24px` (section headings)  
+- `32px` (main titles) |
+
+---
+
+## Why Identifying Design Properties Matters
+
+- **Consistency:** Ensures a cohesive look across all screens and components.
+- **Efficiency:** Developers and designers stay aligned, reducing confusion and rework.
+- **Scalability:** Easier to maintain or scale the project with reusable styles.
+- **Accessibility:** Proper font sizes, contrast, and spacing enhance usability for all users.
+
+---
