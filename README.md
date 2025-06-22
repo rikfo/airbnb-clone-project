@@ -270,3 +270,20 @@ Heroku / Vercel / AWS – For deployment
 ---
 Each team member plays a vital role in delivering the project successfully.
 ---
+
+# UI Components
+## Navbar
+- A top navigation bar with links to Home, Listings, User Profile, and Login/Logout. Responsive for desktop and mobile.
+## Property Card
+- Displays a summary of a property including image, title, location, price per night, and rating. Clickable to open the detailed view.
+## Footer
+- Contains site links (About, Contact, Terms), social media icons, and copyright information.
+## Property Listing
+- A grid or list layout that shows multiple Property Cards with filter and sort options.
+## Listing Detailed View
+- Displays full property details including images carousel, description, amenities, host info, availability calendar, and reviews.
+## Booking Form
+- A simple form to select dates, number of guests, and proceed to checkout.
+## User Profile
+- Displays user information, their bookings, and properties they own (if a host).
+
