@@ -30,7 +30,8 @@ Represents the people using the platform, either as guests or hosts (or both).
   - **name**: Full name of the user
   - **email**: Unique email address
   - **password_hash**: Encrypted password
-  - **role**: Host or Guest (or both)  
+  - **role**: Host or Guest (or both)
+
 **Relationships:**  
 A user can own multiple properties (if they’re a host)  
 A user can make multiple bookings (if they’re a guest)  
@@ -42,7 +43,8 @@ Represents the places listed for rent.
   - **title**: Name of the property
   - **description**: Detailed description
   - **location**: Address or coordinates
-  - **price_per_night**: Rental price  
+  - **price_per_night**: Rental price
+
 **Relationships:**  
 A property belongs to one user (the host)  
 A property can have multiple bookings  
@@ -54,7 +56,8 @@ Represents a reservation made by a guest.
   - **user_id**: Who booked it (guest)
   - **property_id**: Which property was booked
   - **start_date**: Check-in date
-  - **end_date**: Check-out date  
+  - **end_date**: Check-out date
+
 **Relationships:**  
 A booking belongs to one user (guest)  
 A booking belongs to one property  
@@ -66,7 +69,8 @@ Represents feedback left by a guest after a stay.
   - **user_id**: Who left the review
   - **property_id**: Which property was reviewed
   - **rating**: Score (e.g., 1–5 stars)
-  - **comment**: Text review  
+  - **comment**: Text review
+
 **Relationships:**  
 A review belongs to one user (guest)  
 A review belongs to one property  
@@ -77,7 +81,8 @@ Represents a financial transaction for a booking.
   - **booking_id**: Linked booking
   - **amount**: Total amount paid
   - **payment_method**: Card, PayPal, etc.
-  - **status**: Paid, Pending, Failed  
+  - **status**: Paid, Pending, Failed
+
 **Relationships:**  
 A payment belongs to one booking  
 A booking has one payment  
