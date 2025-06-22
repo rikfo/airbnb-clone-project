@@ -1,4 +1,7 @@
 # airbnb-clone-project
+
+# Backend
+
 # Project Goals
 ## 1. User Management:
 Implement a secure system for user registration, authentication, and profile management.
@@ -162,3 +165,32 @@ GitHub Actions – Automate testing and deployment
 Docker – Containerize the app for consistent environments  
 Jest / Mocha – For running tests  
 Heroku / Vercel / AWS – For deployment
+
+# Frontend
+
+# UI/UX Design Planning
+## Design Goals
+**Simplicity**: Clean and intuitive user interface.  
+**Responsiveness**: Works on mobile, tablet, and desktop.  
+**Performance**: Fast loading, smooth navigation.  
+**Security**: Protect user data and payments.  
+**Scalability**: Easy to maintain and extend features later.
+## Key Features
+- User registration/login (auth)  
+- Property search & filter (by location, price, etc.)  
+- Host property listing  
+- Booking system with availability check  
+- Reviews and ratings  
+- Secure payment integration  
+- User dashboard (bookings, listings, reviews)  
+## Primary Page Descriptions
+| Page | Description|
+|------|------------|
+| Property Listing View |	Shows a grid/list of properties with images, price, and basic details. Includes filters (e.g., price, location). |
+| Listing Detailed View	| Shows full details of a selected property: photos, description, host info, availability calendar, and reviews. |
+| Simple Checkout View | Lets the user confirm booking dates, view total cost, and make payment securely. |  
+## Why User-Friendly Design Matters
+**Easy Navigation**: Helps users find properties or make bookings quickly.  
+**Reduces Friction**: Simple forms and clear flows make the experience smooth.  
+**Boosts Conversions**: A better UX increases trust, which leads to more bookings.  
+**Accessibility**: Inclusive design means everyone can use it regardless of device or ability.  
