@@ -24,7 +24,7 @@ React will be used in the frontend while django will be used in the backend.
 
 # Database Design
 **1. User**
-Represents the people using the platform, either as guests or hosts (or both).
+Represents the people using the platform, either as guests or hosts (or both).  
 **Key Fields:**
   - **id**: Unique identifier
   - **name**: Full name of the user
@@ -36,7 +36,7 @@ A user can own multiple properties (if they’re a host)
 A user can make multiple bookings (if they’re a guest)
 A user can write multiple reviews
 **2. Property**
-Represents the places listed for rent.
+Represents the places listed for rent.  
 **Key Fields:**
   - **id**: Unique identifier
   - **title**: Name of the property
@@ -48,7 +48,7 @@ A property belongs to one user (the host)
 A property can have multiple bookings
 A property can have multiple reviews
 **3. Booking**
-Represents a reservation made by a guest.
+Represents a reservation made by a guest.  
 **Key Fields:**
   - **id**: Unique identifier
   - **user_id**: Who booked it (guest)
@@ -60,7 +60,7 @@ A booking belongs to one user (guest)
 A booking belongs to one property
 A booking may have one payment
 **4. Review**
-Represents feedback left by a guest after a stay.
+Represents feedback left by a guest after a stay.  
 **Key Fields:**
   - **id**: Unique identifier
   - **user_id**: Who left the review
@@ -71,7 +71,7 @@ Represents feedback left by a guest after a stay.
 A review belongs to one user (guest)
 A review belongs to one property
 **5. Payment**
-Represents a financial transaction for a booking.
+Represents a financial transaction for a booking.  
 **Key Fields:**
   - **id**: Unique identifier
   - **booking_id**: Linked booking
