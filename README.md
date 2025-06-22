@@ -131,20 +131,34 @@ Caching: Use caching strategies to reduce database load and improve performance.
 
 # API Security
 ## 1. Authentication
-Verifies user identity (e.g., login with hashed passwords, JWTs).
-🔒 Protects accounts from unauthorized access.
+Verifies user identity (e.g., login with hashed passwords, JWTs).  
+Protects accounts from unauthorized access.
 ## 2. Authorization
-Controls what each user can do (e.g., only hosts can edit their listings).
-🛡️ Prevents users from accessing others’ data.
+Controls what each user can do (e.g., only hosts can edit their listings).  
+Prevents users from accessing others’ data.
 ## 3. Rate Limiting
-Limits number of requests per user/IP.
-🚫 Stops abuse like brute-force attacks or spam.
+Limits number of requests per user/IP.  
+Stops abuse like brute-force attacks or spam.
 ## 4. Input Validation
-Checks and sanitizes all user input.
-🧼 Prevents SQL injection & XSS attacks.
+Checks and sanitizes all user input.  
+Prevents SQL injection & XSS attacks.
 ## 5. Secure Payments
-Uses trusted payment providers (e.g., Stripe).
-💳 Ensures safe, PCI-compliant transactions.
+Uses trusted payment providers (e.g., Stripe).  
+Ensures safe, PCI-compliant transactions.
 ## 6. Data Encryption
-Encrypts sensitive data and uses HTTPS.
-🔐 Keeps personal and financial data safe.
+Encrypts sensitive data and uses HTTPS.  
+Keeps personal and financial data safe.
+
+# What is CI/CD?
+CI/CD (Continuous Integration/Continuous Deployment) is a process that automates testing and deployment of code changes.  
+CI (Continuous Integration): Automatically tests and merges code when changes are pushed.  
+CD (Continuous Deployment): Automatically deploys the app after successful tests.
+## Why It’s Important for the Project
+Faster development: Code changes go live quickly.  
+Fewer bugs: Automated tests catch errors early.  
+Better collaboration: Developers can work smoothly as code is continuously merged and tested.
+## Tools You Can Use
+GitHub Actions – Automate testing and deployment  
+Docker – Containerize the app for consistent environments  
+Jest / Mocha – For running tests  
+Heroku / Vercel / AWS – For deployment
